@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background: #160b42;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+}
+.wrapper {
+    width: 100%;
+    margin: auto;
+}
+header {
+    border-bottom: 3px solid #d3103a ;
+}
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+    background: #02101f;
+    text-align: center;
+}
+h1 {
+    font-family: 'Kreon';
+    font-size: 50px;
+    text-transform: uppercase;
+}
+a:hover {
+    color: #ffff00;
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    padding: 0 10px 0 0;
+}
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Mukta', sans-serif;
+}
+
+main{
+    background: #02101f;
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px;
+    border-left: 3px solid #d3103a ;
+    border-right: 3px solid #d3103a ;
+    font-size: 20px;
+}
+h2 {
+    font-family: 'Kreon';
+    font-size: 30px;
+    border-left: 2px solid #d3103a;
+    border-radius: 10px;
+    padding: 0 10px;
+    display: inline;
+}
+
+
+footer {
+    background: #02101f;
+    border-top: 3px solid #d3103a ; 
+}
+h3 {
+    font-size: 30px;
+}
+.Lista-Redes-Sociais {
+    display: inline-block;
+    list-style-type: none
+}
+.Item-Redes-Sociais {
+    display: inline-block;
+    padding: 0 23px 0 0;
+}
+footer a {
+    text-decoration: none; 
+    color: #FFFFFF;
+    font-size: 23px;
+}
+
+
+
